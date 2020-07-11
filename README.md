@@ -16,9 +16,8 @@ Foreign Data Wrapper (FDW) that facilitates access to Hive Big Data Distributed 
 ## Prepare
 
 In addition to normal PostgreSQL FDW pre-reqs, the primary specific
-requirements for this FDW are a JDK (we test with OpenJDK 8 & 11) and a set of
-Hive client JAR files for the Hadoop distribution you are connecting
-with.
+requirements for this FDW are OpenJDK 11 and a set of
+Hive client JAR files.
 
 ## Building from Source
 
@@ -28,10 +27,8 @@ PostgreSQL source tree and then build and install the FDW as below:
 1) Create a link to your JVM in the PostgreSQL lib folder with commands something like
 
 ```
-cd ~/pg/12.2/lib
-ln -s /etc/alternatives/jre_1.8.0/lib/amd64/server/libjvm.so libjvm.so
-   or
-ln -s /usr/java/latest/jre/lib/amd64/server/libjvm.so libjvm.so
+cd ~/pg/13/lib
+ln -s /etc/alternatives/jre_11/lib/server/libjvm.so libjvm.so
 ```
 
 2) Build the FDW source

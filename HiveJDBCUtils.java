@@ -16,6 +16,7 @@ import java.net.URLClassLoader;
 import java.net.MalformedURLException;
 import java.util.*;
 
+@SuppressWarnings({"unchecked", "deprecation"})
 
 public class HiveJDBCUtils
 {

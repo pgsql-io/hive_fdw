@@ -11,7 +11,7 @@ MODULE_big = hive_fdw
 OBJS = hive_fdw.o deparse.o hive_funcs.o
 
 EXTENSION = hive_fdw
-DATA = hive_fdw--3.3.sql
+DATA = hive_fdw--4.0.sql
 
 REGRESS = hive_fdw
 

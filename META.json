@@ -2,7 +2,7 @@
    "name": "hive_fdw",
    "abstract": "HIVE FDW for PostgreSQL 11+",
    "description": "This extension implements a Foreign Data Wrapper for Hive.",
-   "version": "3.3",
+   "version": "4.0",
    "maintainer": [
       "Denis Lussier <denis@lussier.io>"
    ],
@@ -10,16 +10,9 @@
    "provides": {
       "hive_fdw": {
          "abstract": "HIVE FDW for PostgreSQL 11+",
-         "file": "hive_fdw--3.3.sql",
+         "file": "hive_fdw--4.0.sql",
          "docfile": "README",
-         "version": "3.3"
-      }
-   },
-   "prereqs": {
-      "runtime": {
-         "requires": {
-            "PostgreSQL": "11" 
-         }
+         "version": "4.0"
       }
    },
    "resources": {
@@ -27,14 +20,14 @@
          "web": "https://github.com/bigsql/hive_fdw/issues"
       },
       "repository": {
-        "url":  "https://github.com/bigsql/hive_fdw.git",
-        "web":  "https://github.com/bigsql/hive_fdw",
+        "url":  "https://github.com/pgsql-io/hive_fdw.git",
+        "web":  "https://github.com/pgsql-io/hive_fdw",
         "type": "git"
       }
    },
    "generated_by": "Denis Lussier",
    "meta-spec": {
-      "version": "3.3",
+      "version": "4.0",
       "url": "http://pgxn.org/meta/spec.txt"
    },
    "tags": [
